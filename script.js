@@ -46,7 +46,7 @@ document.querySelector('.contact-form').addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(event.currentTarget);
   const message = `Olá, Karen! Meu nome é ${data.get('nome')}. Tenho interesse em ${data.get('servico')}. ${data.get('mensagem')} Meu telefone é ${data.get('telefone')}.`;
-  window.open(`https://wa.me/5532999999999?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+  window.open(`https://wa.me/553288500189?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
 });
 
 document.querySelector('#year').textContent = String(new Date().getFullYear());
